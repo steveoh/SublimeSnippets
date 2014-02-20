@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:function name}: function(${3:params}) {
+	// summary:
+	//      ${4:description}
+    // ${3:params: {5:type or return: type}
+	console.log('${2:appName}::${1:function name}', arguments);
+ 
+	${7:code}
+}${6:comma}
+]]></content>
+	<tabTrigger>objfun</tabTrigger>
+	<scope>source.js</scope>
+	<description>new function as a property of an object</description>
+</snippet>

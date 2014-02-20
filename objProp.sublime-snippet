@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+// ${1:property name}: ${2:type}
+// summary:
+//      ${3:description} 
+${1:property name}: ${4: default value}
+]]></content>
+    <tabTrigger>objprop</tabTrigger>
+    <scope>source.js</scope>
+    <description>new property of an object</description>
+</snippet>
