@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+require([
+    '${1:path}/${2:name}',
+    'dojo/dom-construct',
+    'dojo/_base/window'
+
+],
+
+function (
+    ${2:name},
+    domConstruct,
+    win
+    ) {
+    describe('${1:path}/${2:name}', function () {
+        var testWidget;
+        beforeEach(function () {
+            testWidget = new ${2:name}({}, domConstruct.create('div', {}, win.body()));
+        });
+        afterEach(function () {
+            testWidget.destroy();
+            testWidget = null;
+        });
+
+        it('creates a valid object', function () {
+            expect(testWidget).toEqual(jasmine.any(${2:name}));
+        });
+    });
+});
+]]></content>
+    <tabTrigger>jas new suite</tabTrigger>
+    <scope>source.js</scope>
+    <description>New Jasmine set suite file</description>
+</snippet>

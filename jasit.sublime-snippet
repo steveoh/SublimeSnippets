@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+it('${1:should do something}', function () {
+    ${2}
+});
+]]></content>
+    <tabTrigger>jasit</tabTrigger>
+    <scope>source.js</scope>
+    <description>jasmine - it</description>
+</snippet>

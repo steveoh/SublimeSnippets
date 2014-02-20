@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+expect(true).toBe(false); // unimplemented
+]]></content>
+    <tabTrigger>jasunimplemented</tabTrigger>
+    <scope>source.js</scope>
+    <description>jasmine - unimplemented</description>
+</snippet>

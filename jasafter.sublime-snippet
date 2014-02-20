@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+afterEach(function () {
+    ${1:code}
+});
+]]></content>
+    <tabTrigger>jasafter</tabTrigger>
+    <scope>source.js</scope>
+    <description>jasmine - afterEach</description>
+</snippet>

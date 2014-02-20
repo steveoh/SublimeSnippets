@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+/*global describe, it, expect, beforeEach, afterEach, spyOn, jasmine, runs, waitsFor*/
+]]></content>
+    <tabTrigger>jasglobals</tabTrigger>
+    <description>Jasmine JsHint Globals</description>
+    <scope>source.js</scope>
+</snippet>
