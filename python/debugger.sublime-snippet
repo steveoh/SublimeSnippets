@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[from nose.tools import set_trace
+set_trace()
+]]></content>
+    <tabTrigger>debugger</tabTrigger>
+    <scope>source.python</scope>
+    <description>debug something</description>
+</snippet>
